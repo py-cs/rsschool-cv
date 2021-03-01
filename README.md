@@ -1,2 +1,1 @@
-# rsschool-cv
-CV
+https://py-cs.github.io/rsschool-cv/cv
