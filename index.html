@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -13,37 +13,53 @@
   </head>
   <body>
     <div class="container">
-      <div class="col-2">
-        <div class="column">
-          <h1>Ivan Efimov</h1>
-          <h2>Junior Fullstack Developer</h2>
-          <section>
-            <h3>Contacts</h3>
-            <div class="contacts">
-              <a class="contact-link" href="https://www.linkedin.com/in/ivan-efimov-62130b204/">LinkedIn</a>
-              <a class="contact-link" href="mailto:ivan.s.efimov@gmail.com">E-mail</a>
-            </div>
-          </section>
-          <section>
-            <h3>Skills</h3>
-            <ul>
-              <li><strong>Python</strong> (Django, DRF)</li>
-              <li><strong>SQL</strong></li>
-              <li><strong>JavaScript</strong> (React)</li>
-              <li><strong>HTML, CSS</strong></li>
-              <li><strong>GIT</strong> (Github, GitLab)</li>
-              <li><strong>IDE</strong> (VS Code, Pycharm, Webstorm)</li>
-            </ul>
-          </section>
-        </div>
-        <div class="column photo"></div>
-      </div>
+      <header>
+        <h1>Ivan Efimov</h1>
+        <h2>Junior Fullstack Developer</h2>
+      </header>
+      <section>
+        <h3>Contacts</h3>
+        <ul class="contacts">
+          <li>
+            <a href="https://www.linkedin.com/in/ivan-efimov-62130b204/">LinkedIn</a>
+          </li>
+          <li>
+            <a href="mailto:ivan.s.efimov@gmail.com">E-mail</a>
+          </li>
+          <li>
+              <a href="tel:+79212516484">Phone#/Telegram</a>
+            </li>
+        </ul>
+      </section>
+      <section>
+        <h3>Skills</h3>
+        <ul>
+          <li><strong>Python</strong> (Django, DRF)</li>
+          <li><strong>SQL</strong></li>
+          <li><strong>JavaScript</strong> (React)</li>
+          <li><strong>HTML, CSS</strong></li>
+          <li><strong>GIT</strong> (Github, GitLab)</li>
+          <li><strong>IDE</strong> (VS Code, Pycharm, Webstorm)</li>
+        </ul>
+        <figure>
+          <img src="photo.jpg" alt="CV photo" />
+        </figure>
+      </section>
+      <section>
+        <h3>Summary</h3>
+        <p>
+          Currently working as head of department in engineering company, have
+          working experience in business processes automation with VBA and
+          Python, building CRM systems, data analysis and planning. Looking
+          forward to applying my skills and experience as a fullstack web
+          developer.
+        </p>
+      </section>
       <section>
         <h3>Education</h3>
         <ul>
           <li>
-            <strong>2021 (in progress):</strong> Frontend Development @ RS
-            School
+            <strong>2021 (in progress):</strong> Frontend Development @ RS School
           </li>
           <li><strong>2021:</strong> CS50w - Web Development @ HarvardX</li>
           <li><strong>2020:</strong> Frontend Developer @ JetBrains Academy</li>
@@ -85,10 +101,13 @@
               <li class="tag">SQL</li>
             </ul>
           </li>
+
           <li>
-            <strong>
-              <a href="https://github.com/py-cs/twt-react-drf">Twitter Clone App</a>
-            </strong>
+            <strong
+              ><a href="https://github.com/py-cs/twt-react-drf"
+                >Twitter Clone App</a
+              ></strong
+            >
             <ul class="tag-list">
               <li class="tag">Python</li>
               <li class="tag">Django</li>
@@ -99,9 +118,11 @@
             </ul>
           </li>
           <li>
-            <strong>
-              <a href="https://github.com/py-cs/react-todo">To-Do App</a>
-            </strong>
+            <strong
+              ><a href="https://github.com/py-cs/react-todo"
+                >To-Do App</a
+              ></strong
+            >
             <ul class="tag-list">
               <li class="tag">JS</li>
               <li class="tag">React</li>
@@ -118,7 +139,9 @@
             </ul>
           </li>
           <li>
-            <a class="contact-link" href="https://github.com/py-cs/">My Github</a>
+            <a href="https://github.com/py-cs/"
+              >My Github</a
+            >
             (~15 smaller projects withing HarvardX/JetBrains courses)
           </li>
         </ul>
@@ -130,18 +153,16 @@
           <li><strong>English:</strong> Intermediate (B1)</li>
         </ul>
       </section>
-      <section>
-        <h3>Bio</h3>
-        <p>
-          Curently working as head of department in engineering company, have
-          working experience in buisiness processes automation with VBA and
-          Python, building CRM systems, data analysis and planning. Looking
-          forward to apply my skills and experience as a fullstack web
-          developer.
-        </p>
-      </section>
       <footer>
-        <p class="center">html-css-git CV project by Ivan Efimov @ RS-School</p>
+        <a href="https://github.com/py-cs/">
+          <img class="logo" src="https://github.githubassets.com/images/modules/site/icons/footer/github-logo.svg" alt="GitHub Logo">
+        </a>
+        <a href="#">
+          <time datetime="2021-03-04">2021</time>
+        </a>
+        <a href="https://rs.school/js/">
+          <img class="logo" src="https://rs.school/images/rs_school_js.svg" alt="RSS Logo">
+        </a>
       </footer>
     </div>
   </body>
